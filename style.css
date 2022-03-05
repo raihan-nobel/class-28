@@ -226,6 +226,9 @@ img{
         width: 55%;
         margin: auto;
     }
+    
+}
+@media ( max-width:576px){
     .app-section h4 {
         font-size: 25px;
     }
@@ -235,4 +238,8 @@ img{
     .fotter p {
         font-size: 15px;
     }
+    .team h2 {
+        margin-bottom: 15px;
+    }
 }
+
