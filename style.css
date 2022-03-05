@@ -1,0 +1,234 @@
+img{
+    max-width: 100%;
+}
+.logo {
+    width: 35%;
+    margin-top: 0px;
+}
+
+/* banner-section" */
+.banner{
+    background-color: #f8f8fe;
+}
+.banner-section h6{}
+.banner-section h2{}
+.banner-section p{}
+.banner-section .btn-primary{
+    
+    color: #fff;
+    border: none;
+
+}
+.ddd{
+    transition: .5s;
+}
+.ddd:hover{
+    background-color: #0e0303;
+    color: #fff;
+
+}
+.banner-section img {
+    width: 60%;
+}
+
+/* detalis */
+.detalis {
+    margin-top: 60px;
+    background: #f9f9f9;
+}
+.detalis img {
+    width: 90%;
+}
+.detalis h6{}
+.detalis h2{}
+.detalis p{}
+
+
+
+.btn-primary{
+    background: #838ffe;
+    color: #fff;
+    border: none;
+}
+.btn-primary:hover
+
+/* price-section */
+.contant {
+    background: red;
+}
+
+/* app-section */
+.app-section {
+    background-color: #f8f8fe;
+}
+.star{}
+.star h2{}
+.star p{}
+
+
+.app-section h4 {
+    font-size: 45px;
+    font-weight: 400;
+   
+}
+.app-section .btn-outline {
+    color: #8490ff;
+    border: 1px solid #8490ff;
+    transition: .7s;
+    display: inline-block;
+    margin: 14px 0px;
+}
+.box-1:hover .btn-outline{
+    background-color: #8490ff;
+    color: #fff;
+}
+.box-1 {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(183, 176, 176);
+
+}
+
+.box-1 span {
+    background-color: #F9F9FF;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 90px;
+}
+
+.box-1 ul {
+    list-style: none;
+}
+.box-1 li {
+    padding: 10px;
+    color: #818181;
+    font-size: 20px;
+}
+.box-1 h2{
+    
+}
+.app-section h4{}
+.app-section h6{}
+.app-section p{}
+
+
+/* price triyal */
+
+.price{
+    background-color: #838ffe;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+
+
+
+.jasan-section {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.Jason  {
+    position: relative;
+    background-color: #fff;
+    padding: 30px;
+    width: 23%;
+    margin-right: 30px;
+    box-shadow: 1px 5px 17px -7px #000;
+}
+.Jason:last-child{
+    margin-right: 0;
+}
+.Jason  img {
+    width: 80px;
+    position: absolute;
+    top: -55px;
+    left: 14px;
+}
+.team{}
+.team h2{
+    padding-top: 15px;
+}
+.team h5{
+    margin-top: -8px;
+}
+.team p{
+    padding: 10px 0;
+}
+.team a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+    margin: 5px 0px;
+}
+.contact-us{
+    background-color: #f8f8fe;
+}
+.send{
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+ .all-thing {
+	margin-top: 140px;
+}
+
+.send form textarea{
+    height: 250px;
+}
+
+/* Responsiuve */
+
+@media ( max-width:1210px){
+    .Jason {
+        width: 22%;
+    }
+}
+ @media (max-width:992px){
+    .Jason {
+        width: 48%;
+        margin: auto;
+        margin-bottom: 75px;
+        
+    }
+    .all-thing {
+        
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .app-section h4 {
+        font-size: 35px;
+    }
+    .app-section p {
+        width: 53%;
+        margin: auto;
+    }
+}
+
+@media ( max-width:768px){
+    .product {
+        margin-bottom: 30px;
+    }
+    .Jason {
+        width: 100%;
+    }
+    .raihan {
+        width: 55%;
+        margin: auto;
+    }
+    .raihan {
+        width: 55%;
+        margin: auto;
+    }
+}
+
+
+
+
+
